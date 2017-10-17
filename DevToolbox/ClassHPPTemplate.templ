@@ -1,0 +1,54 @@
+#ifndef ${GUARD}
+#define ${GUARD} 1
+
+namespace JITZ80Lib
+{
+    namespace ${NAMESPACE}
+    {
+        /**
+         * @brief
+         */
+        class ${CLASSNAME}
+        {
+            public:
+                /**
+                 * @brief
+                 */
+                ${CLASSNAME}();
+
+                /**
+                 * @brief Copy constructor.
+                 * @param src Object from where the values are copied.
+                 */
+                ${CLASSNAME}(const ${CLASSNAME}& src);
+
+                /**
+                 * @brief Move constructor.
+                 * @param src Object from where the values are copied.
+                 */
+                ${CLASSNAME}(${CLASSNAME}&& src);
+
+                /**
+                 * @brief Destructor
+                 */
+                virtual ~${CLASSNAME}();
+
+            public:
+                /**
+                 * @brief Copy assignment operator
+                 * @param src Object from where the values are copied.
+                 * @returns Returns a reference to this object.
+                 */
+                ${CLASSNAME}& operator=(const ${CLASSNAME}& src);
+
+                /**
+                 * @brief Move assignment operator
+                 * @param src Object from where the values are copied.
+                 * @returns Returns a reference to this object.
+                 */
+                ${CLASSNAME}& operator=(${CLASSNAME}&& src);
+        }; // class ${CLASSNAME}
+    } // namespace ${NAMESPACE}
+} // namespace JITZ80Lib
+
+#endif // ${GUARD}

@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Debug
+/bin
+/Support/nasm.exe
+/Support/Routines_X64.lst
+/Support/Routines_X64
+/TestJITZ80Lib/TestJITZ80Lib.vcxproj.user
+/TestJITZ80Lib/TestJITZ80Lib.vcxproj.filters
